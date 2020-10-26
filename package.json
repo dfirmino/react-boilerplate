@@ -1,0 +1,52 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "test": "jest --passWithNoTests --no-cache --verbose --runInBand",
+    "test:watch": "npm run test -- --watch",
+    "test:staged": "npm run test -- --findRelatedTests",
+    "test:ci": "npm run test -- --coverage",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "author": "Davi Firmino <dafirsouza@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/react": "^11.1.0",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.2",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.0",
+    "eslint": "^7.12.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "git-commit-msg-linter": "^3.0.0",
+    "husky": "^4.3.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.1",
+    "lint-staged": "^10.4.2",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.2",
+    "sass-loader": "^10.0.4",
+    "style-loader": "^2.0.0",
+    "ts-jest": "^26.4.2",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.3",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
